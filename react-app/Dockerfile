@@ -10,5 +10,7 @@ COPY . /react-app
 RUN npm install
 
 # RUN npm run start
-# # Run app
+EXPOSE 5173
+
+# Run app
 CMD [ "npm", "start" ]
